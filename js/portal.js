@@ -1,4 +1,6 @@
-<script>
-var date = document.lastModified;
-document.write("Last Modified: "+date);
-</script>
+
+var lastModified = "Last Updated: "+document.lastModified;
+
+const Year = new Date().getFullYear();
+var currentYear = "@"+Year;
+
