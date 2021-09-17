@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<head lang="en-US">
+<html lang="en-US">
+<head>
     <meta charset="uft-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Randy Bickham Portal</title>
     <meta name="description" content="Assignment portal for Randy for my BYU class"> 
 
     <link rel="stylesheet" href="css/portal.css">
+    <script src="js/portal.js" type="text/javascript"></script>
     
 </head>
-
+    
 <body>
     
     <div class="headerbox">
@@ -29,14 +31,15 @@
     </div>
 
     <div class="footerbox">
-        <div class="footer">
-            @2021 | Randy Bickham | Iowa | <a href="http://byui.edu" class="footer">BYU Online Learning</a>
+        <div class="footer"><script>document.write(currentYear);</script>
+             | Randy Bickham | Iowa | <a href="http://byui.edu" class="footer">BYU Online Learning</a>
         </div>
         <div class="updated">
-            <script>
-                document.write("Last Updated: "+document.lastModified);
+           <script>
+                document.write(lastModified);
             </script>
             
+
         </div>
     </div>
 
