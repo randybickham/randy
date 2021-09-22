@@ -33,6 +33,9 @@ body {
     float: right;
     box-shadow: 4px 4px 4px black;
 }
+.imageContent {
+    box-shadow: 4px 4px 4px black;
+}
 
 .navbar {
     padding: 0px;
@@ -86,7 +89,17 @@ ul.nav {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+
   li.nav a:hover {
     background-color: #111;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    grid-auto-columns: 200px;
+  }
+  .wrapper.bottom {
+      align-items: baseline;
   }
