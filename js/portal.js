@@ -1,6 +1,6 @@
 
-var lastModified = "Last Updated: "+document.lastModified;
+let lastModified = "Last Updated: "+document.lastModified;
 
 const Year = new Date().getFullYear();
-var currentYear = "@"+Year;
+let disclaimer = `Paid For by Bickham for Council @ ${Year}<br/> `;
 

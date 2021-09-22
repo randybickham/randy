@@ -1,24 +1,24 @@
-html, body {
+body {
     font-family: Verdana,sans-serif;
     font-size: 15px;
     line-height: 1.5;
 }
 .headerbox {
-    border-radius: 15px;
-    background: #3d1e02ec;
+    border-radius: 5px;
+    background: #000000;
     padding: 20px;
-    width: 60%;
+    width: 80%;
     height: 50px;
     align-items: center;
     margin: auto;
 }
 
 .footerbox {
-    border-radius: 15px;
-    background: #3d1e02ec;
+    border-radius: 5px;
+    background: #000000;
     padding: 20px;
-    width: 60%;
-    height: 30px;
+    width: 80%;
+    height: 10px;
     align-items: center;
     margin: auto;
 }
@@ -34,27 +34,59 @@ html, body {
     box-shadow: 4px 4px 4px black;
 }
 
+.navbar {
+    padding: 0px;
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    background-color:limegreen;
+}
+
 .content {
     padding: 20px;
-    width: 60%;
+    width: 80%;
     height: auto;
     margin: auto;
 }
 
 .footer {
-    font-size: small;
-    color: white;
-    text-align: center;
+    font-size: x-small;
+    color: gray;
+    text-align: right;
 }
 .updated {
     font-size: x-small;
-    color: cornsilk;
-    text-align: center;
+    color: gray;
+    text-align: right;
 }
-a.footer:hover {
+a.footer {
     color: white;
 }
 a.footer:hover {
     color: yellow;
 }
 
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:limegreen;
+  }
+  
+  li.nav {
+    float: left;
+  }
+  
+  li.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li.nav a:hover {
+    background-color: #111;
+  }
