@@ -5,7 +5,7 @@ body {
 }
 .headerbox {
     border-radius: 5px;
-    background: #000000;
+    background: #00003F;
     padding: 20px;
     width: 80%;
     height: 50px;
@@ -15,7 +15,7 @@ body {
 
 .footerbox {
     border-radius: 5px;
-    background: #000000;
+    background: #00003F;
     padding: 20px;
     width: 80%;
     height: 10px;
@@ -67,6 +67,7 @@ a.footer {
 }
 a.footer:hover {
     color: yellow;
+
 }
 
 ul.nav {
@@ -74,7 +75,7 @@ ul.nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:limegreen;
+    background-color:yellow;
   }
   
   li.nav {
@@ -83,7 +84,7 @@ ul.nav {
   
   li.nav a {
     display: block;
-    color: white;
+    color: darkblue;
     text-align: center;
     padding: 5px 15px;
     text-decoration: none;
@@ -91,7 +92,8 @@ ul.nav {
   
 
   li.nav a:hover {
-    background-color: #111;
+    background-color: #00003F;
+    color: yellow;
   }
 
   .wrapper {
