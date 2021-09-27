@@ -22,7 +22,12 @@ body {
     align-items: center;
     margin: auto;
 }
-
+.header{
+    font-size: large;
+    font-weight: bold;
+    color: 00003F;
+    padding-top: 10px;
+}
 .title {
     font-size: xx-large;
     font-weight: bold;
@@ -86,7 +91,7 @@ ul.nav {
     display: block;
     color: darkblue;
     text-align: center;
-    padding: 5px 15px;
+    padding: 1px 10px;
     text-decoration: none;
   }
   
@@ -105,3 +110,5 @@ ul.nav {
   .wrapper.bottom {
       align-items: baseline;
   }
+
+  
